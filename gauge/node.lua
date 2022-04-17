@@ -27,12 +27,12 @@ end
 node.alias("gauge")
 
 local gauges = {
-    foo = gauge{
+    temp = gauge{
         x = 300;
         y = 300;
         size = 300;
     };
-    bar = gauge{
+    humid = gauge{
         x = 700;
         y = 300;
         size = 300;
